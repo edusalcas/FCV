@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 915, y: 444}
   m_MaxSize: {x: 22010, y: 10022}
   vertical: 0
-  controlID: 50
+  controlID: 74
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 444}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 51
+  controlID: 75
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -391,7 +391,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: -6.491352, y: 6.617775, z: 11.373024}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -422,11 +422,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
-    m_Value: {x: 0.30469218, y: 0.40563813, z: -0.14547743, w: 0.8494252}
+    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
     m_Target: 10
     speed: 2
-    m_Value: 57.487324
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: /Users/eduardo/git/FCV_Game/FCV_Game
+  m_LastProjectPath: /Users/eduardo/git/FCV/FCV_Juego
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
