@@ -65,6 +65,8 @@
     <Compile Include="Assets\FadeObstructions\Reyn\Visual\Fade\FadeObjectOptions.cs" />
     <Compile Include="Assets\FadeObstructions\Reyn\Visual\Fade\FadeObstructionsManager.cs" />
     <Compile Include="Assets\FadeObstructions\Reyn\Visual\Fade\FadeToMe.cs" />
+    <Compile Include="Assets\Scripts\cameraFollow.cs" />
+    <Compile Include="Assets\Scripts\charController.cs" />
     <Compile Include="Assets\torch\scene\script\TorchSlider.cs" />
     <Compile Include="Assets\torch\scene\script\Torchslider2.cs" />
     <Compile Include="Assets\torch\scripts\Torchelight.cs" />
