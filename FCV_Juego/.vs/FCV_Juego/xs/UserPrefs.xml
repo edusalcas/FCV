@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{BE766914-CF4D-0AB8-D483-D9064B8D8869}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/torch/scripts/Torchelight.cs">
+    <Files>
+      <File FileName="Assets/torch/scripts/Torchelight.cs" Line="30" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FCV_Juego" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="torch" expanded="True">
+                <Node name="scripts" expanded="True">
+                  <Node name="Torchelight.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="87c77053-ec31-46f9-b475-41a835c817e3" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
