@@ -1,8 +1,11 @@
 ﻿<Properties StartupConfiguration="{BE766914-CF4D-0AB8-D483-D9064B8D8869}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/menu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/charController.cs">
     <Files>
       <File FileName="Assets/torch/scripts/Torchelight.cs" Line="30" Column="1" />
       <File FileName="Assets/Scripts/menu.cs" Line="16" Column="36" />
+      <File FileName="Assets/Scripts/ObjExporter.cs" Line="6" Column="41" />
+      <File FileName="Assets/Scripts/cameraFollow.cs" Line="12" Column="9" />
+      <File FileName="Assets/Scripts/charController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +13,7 @@
           <Node name="FCV_Juego" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="menu.cs" selected="True" />
+                <Node name="charController.cs" selected="True" />
               </Node>
               <Node name="torch" expanded="True">
                 <Node name="scripts" expanded="True" />
@@ -23,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6a1ee028-db16-4367-ae57-07b3a8ac52d7" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="50284386-9a16-46bf-8c9a-ddd82daa7d49" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

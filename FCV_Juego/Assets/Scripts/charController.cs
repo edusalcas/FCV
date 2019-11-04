@@ -39,6 +39,11 @@ public class charController : MonoBehaviour
 
     void Move()
     {
+        forward = Camera.main.transform.forward;
+        forward.y = 0;
+        forward = Vector3.Normalize(forward);
+        right = Quaternion.Euler(new Vector3(0, 90, 0)) * forward;
+
         Vector3 direction = new Vector3(Input.GetAxis("Horizontalkey"), 0, Input.GetAxis("Verticalkey"));
         Vector3 rightMovement = right * moveSpeed * Time.deltaTime * Input.GetAxis("Horizontalkey");
         Vector3 upMovement = forward * moveSpeed * Time.deltaTime * Input.GetAxis("Verticalkey");
