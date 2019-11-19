@@ -116,7 +116,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 444}
   m_MaxSize: {x: 22012, y: 10022}
   vertical: 0
-  controlID: 55
+  controlID: 152
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 444}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 137
+  controlID: 33
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -390,9 +390,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 82.025734, y: 0.52542067, z: -22.214043}
+    m_Target: {x: 67.01982, y: -6.6139717, z: -38.118652}
     speed: 2
-    m_Value: {x: 82.025734, y: 0.52542067, z: -22.214043}
+    m_Value: {x: 67.01982, y: -6.6139717, z: -38.118652}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -421,13 +421,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.044673692, y: 0.95154643, z: -0.1672607, w: 0.2541502}
+    m_Target: {x: 0.06701136, y: 0.92779225, z: -0.30540293, w: 0.20357865}
     speed: 2
-    m_Value: {x: 0.044673692, y: 0.95154643, z: -0.1672607, w: 0.2541502}
+    m_Value: {x: 0.06701122, y: 0.92779034, z: -0.3054023, w: 0.20357823}
   m_Size:
-    m_Target: 10.339381
+    m_Target: 22.364676
     speed: 2
-    m_Value: 10.339381
+    m_Value: 20.869944
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -563,9 +563,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 98310000
       m_LastClickedID: 0
-      m_ExpandedIDs: 78fbffff
+      m_ExpandedIDs: 78fbffffcc330000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -628,20 +628,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Dungeon_stone_textures/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Dungeon_stone_textures/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/eduardo/git/FCV/FCV_Juego
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b42f0000
-    m_LastClickedID: 12212
-    m_ExpandedIDs: 00000000e82c0000f230000000ca9a3b
+    m_SelectedIDs: 98310000
+    m_LastClickedID: 12696
+    m_ExpandedIDs: 00000000e82c0000e8300000f230000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -696,7 +696,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
