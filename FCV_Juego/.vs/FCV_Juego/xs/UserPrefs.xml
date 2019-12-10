@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{BE766914-CF4D-0AB8-D483-D9064B8D8869}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/triggerCofre.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayAnimationPuerta.cs" Line="10" Column="5" />
+      <File FileName="Assets/Scripts/PlayAnimationPuerta.cs" Line="7" Column="1" />
       <File FileName="Assets/Scripts/PickObject.cs" />
       <File FileName="Assets/Scripts/charController.cs" Line="78" Column="1" />
-      <File FileName="Assets/Scripts/triggerCofre.cs" Line="13" Column="6" />
+      <File FileName="Assets/Scripts/triggerCofre.cs" Line="10" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
