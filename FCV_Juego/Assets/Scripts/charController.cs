@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -32,7 +33,7 @@ public class charController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKey)
+        if (keyMoves())
         {
             anim.SetInteger("Condicion", 1);
             Move();
@@ -40,6 +41,11 @@ public class charController : MonoBehaviour
         {
             anim.SetInteger("Condicion", 0);
         }
+    }
+
+    private bool keyMoves()
+    {
+        return Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.W);
     }
 
     void Move()
