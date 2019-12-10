@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class charController : MonoBehaviour
 {
@@ -8,6 +9,10 @@ public class charController : MonoBehaviour
     float moveSpeed = 4f;
     [SerializeField]
     float smoothnessFactor;
+    [SerializeField]
+    private Text coinText;
+
+    private int coinCount = 0;
 
     Vector3 forward, right;
     Animator anim;
@@ -52,5 +57,15 @@ public class charController : MonoBehaviour
         transform.forward = Vector3.Slerp(transform.forward, heading, smoothnessFactor);
         transform.position += rightMovement;
         transform.position += upMovement;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Coin"))
+        {
+            other.gameObject.SetActive(false);
+            coinCount++;
+            coinText.text = coinCount.ToString();
+        }
     }
 }

@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\charController.cs" />
     <Compile Include="Assets\Scripts\menu.cs" />
     <Compile Include="Assets\Scripts\ObjExporter.cs" />
+    <Compile Include="Assets\Scripts\PickObject.cs" />
     <Compile Include="Assets\Scripts\PlayAnimationPuerta.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\CheckMusicVolume.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\CheckSFXVolume.cs" />
