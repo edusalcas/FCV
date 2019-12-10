@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{BE766914-CF4D-0AB8-D483-D9064B8D8869}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/charController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/triggerCofre.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayAnimationPuerta.cs" Line="10" Column="5" />
       <File FileName="Assets/Scripts/PickObject.cs" />
-      <File FileName="Assets/Scripts/charController.cs" Line="68" Column="50" />
+      <File FileName="Assets/Scripts/charController.cs" Line="78" Column="1" />
+      <File FileName="Assets/Scripts/triggerCofre.cs" Line="13" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +12,7 @@
           <Node name="FCV_Juego" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="charController.cs" selected="True" />
+                <Node name="triggerCofre.cs" selected="True" />
               </Node>
               <Node name="torch" expanded="True">
                 <Node name="scripts" expanded="True" />
