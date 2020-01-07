@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{BE766914-CF4D-0AB8-D483-D9064B8D8869}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/triggerCofre.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlaySound.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayAnimationPuerta.cs" Line="7" Column="1" />
+      <File FileName="Assets/Scripts/PlayAnimationPuerta.cs" Line="13" Column="37" />
       <File FileName="Assets/Scripts/PickObject.cs" />
-      <File FileName="Assets/Scripts/charController.cs" Line="78" Column="1" />
-      <File FileName="Assets/Scripts/triggerCofre.cs" Line="10" Column="1" />
+      <File FileName="Assets/Scripts/charController.cs" />
+      <File FileName="Assets/Scripts/triggerCofre.cs" />
+      <File FileName="Assets/Scripts/PlayAnimationPiedra.cs" />
+      <File FileName="Assets/Scripts/PlaySound.cs" Line="12" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +14,7 @@
           <Node name="FCV_Juego" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="triggerCofre.cs" selected="True" />
+                <Node name="PlaySound.cs" selected="True" />
               </Node>
               <Node name="torch" expanded="True">
                 <Node name="scripts" expanded="True" />
@@ -25,7 +27,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5472b32f-1c3a-4a82-8722-a23ee8e39ebf" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="53adfe35-3202-490a-a047-b5e23b5e0fea" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

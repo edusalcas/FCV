@@ -9,7 +9,8 @@ public class PlayAnimationPuerta : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        Debug.Log(other.tag);
+        if (other.CompareTag("Piedra"))
         {
             animator.SetBool("play", true);
         }
