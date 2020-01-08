@@ -6,12 +6,28 @@ public class PlayAnimationPiedra : MonoBehaviour
 {
     [SerializeField]
     private Animator animator;
+    [SerializeField]
+    private GameObject textoBoton;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            animator.SetBool("play", true);
+            textoBoton.SetActive(true);
+            if (Input.GetKeyDown(KeyCode.F))
+            {
+                animator.SetBool("play", true);
+                textoBoton.SetActive(false);
+                this.gameObject.SetActive(false);
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            textoBoton.SetActive(false);
         }
     }
 }

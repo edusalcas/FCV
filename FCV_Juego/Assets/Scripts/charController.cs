@@ -12,6 +12,8 @@ public class charController : MonoBehaviour
     float smoothnessFactor;
     [SerializeField]
     private Text coinText;
+    [SerializeField]
+    private AudioClip pickCoinsClip;
 
     private int coinCount = 0;
 
@@ -70,8 +72,14 @@ public class charController : MonoBehaviour
         if (other.gameObject.CompareTag("Coin"))
         {
             other.gameObject.SetActive(false);
-            coinCount++;
-            coinText.text = coinCount.ToString();
+            PickCoins(1);
         }
+    }
+
+    public void PickCoins(int coins)
+    {
+        coinCount += coins;
+        coinText.text = coinCount.ToString();
+        GetComponent<AudioSource>().PlayOneShot(pickCoinsClip);
     }
 }

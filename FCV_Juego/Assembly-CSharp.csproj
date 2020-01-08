@@ -65,6 +65,7 @@
     <Compile Include="Assets\FadeObstructions\Reyn\Visual\Fade\FadeObjectOptions.cs" />
     <Compile Include="Assets\FadeObstructions\Reyn\Visual\Fade\FadeObstructionsManager.cs" />
     <Compile Include="Assets\FadeObstructions\Reyn\Visual\Fade\FadeToMe.cs" />
+    <Compile Include="Assets\Scripts\AbrirCofre.cs" />
     <Compile Include="Assets\Scripts\cameraFollow.cs" />
     <Compile Include="Assets\Scripts\charController.cs" />
     <Compile Include="Assets\Scripts\menu.cs" />
@@ -73,7 +74,8 @@
     <Compile Include="Assets\Scripts\PlayAnimationPiedra.cs" />
     <Compile Include="Assets\Scripts\PlayAnimationPuerta.cs" />
     <Compile Include="Assets\Scripts\PlaySound.cs" />
-    <Compile Include="Assets\Scripts\triggerCofre.cs" />
+    <Compile Include="Assets\Scripts\TriggerBotonAnimacion.cs" />
+    <Compile Include="Assets\Scripts\TriggerBotonDineroCofre.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\CheckMusicVolume.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\CheckSFXVolume.cs" />
     <Compile Include="Assets\SlimUI\Modern Menu 1\Scripts\MainMenuNew.cs" />
