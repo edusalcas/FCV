@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{BE766914-CF4D-0AB8-D483-D9064B8D8869}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TriggerBotonDineroCofre.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/charController.cs">
     <Files>
       <File FileName="Assets/Scripts/PlayAnimationPuerta.cs" Line="13" Column="37" />
       <File FileName="Assets/Scripts/PickObject.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/charController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/triggerCofre.cs" Line="35" Column="36" />
-      <File FileName="Assets/Scripts/PlayAnimationPiedra.cs" Line="22" Column="5" />
+      <File FileName="Assets/Scripts/charController.cs" Line="86" Column="1" />
+      <File FileName="Assets/Scripts/triggerCofre.cs" Line="6" Column="35" />
+      <File FileName="Assets/Scripts/PlayAnimationPiedra.cs" Line="10" Column="35" />
       <File FileName="Assets/Scripts/PlaySound.cs" Line="12" Column="21" />
       <File FileName="Assets/Scripts/AbrirCofre.cs" Line="12" Column="33" />
-      <File FileName="Assets/Scripts/TriggerBotonDineroCofre.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/TriggerBotonDineroCofre.cs" Line="28" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +16,7 @@
           <Node name="FCV_Juego" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="TriggerBotonDineroCofre.cs" selected="True" />
+                <Node name="charController.cs" selected="True" />
               </Node>
               <Node name="torch" expanded="True">
                 <Node name="scripts" expanded="True" />
